@@ -1,6 +1,6 @@
 
 import re
-class User:       #######class to load the data of the user into the user array "u"#############
+class User:
     def __init__(self, id, age, sex, occupation, zip):
         self.id = int(id)
         self.age = int(age)
@@ -9,7 +9,7 @@ class User:       #######class to load the data of the user into the user array 
         self.zip = zip
         self.avg_r = 0.0
 
-class Dataset:      ###### class to import data from our dataset and append it into the user array u#######
+class Dataset: 
     def load_users(self, file, u):
         f = open(file, "r")
         text = f.read()
