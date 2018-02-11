@@ -37,7 +37,6 @@ class Item:
         self.thriller = int(thriller)
         self.war = int(war)
         self.western = int(western)
-# importing data from dataset's csv file
 class Dataset:
     def load_users(self, file, u):
         f = open(file, "r")
